@@ -1,0 +1,30 @@
+.blog {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 20px;
+    grid-column-gap: 5px;
+}
+
+.blog p {
+    font-size: 12px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.startowa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
